@@ -1,21 +1,32 @@
 # fly.toml
-app = "peeragogychatbot"
+app = "peeragogybot" # Changed from peeragogychatbot based on logs? Verify app name.
 primary_region = "maa"
 
+# Ensure this section is EMPTY or REMOVED if using Dockerfile
 [build]
-  # Use the official Flowise image from Docker Hub
-  image = "flowiseai/flowise:latest"
 
 [env]
-  # Port Flowise should listen on INSIDE the container
   PORT = "3000"
-  # Tell Flowise to listen on all interfaces INSIDE the container
-  HOST = "0.0.0.0" # <-- ADD THIS LINE
+  HOST = "0.0.0.0"        # Standard variable (seems ignored by Flowise)
+  FLOWISE_HOST = "0.0.0.0" # Flowise-specific variable (let's try this)
 
-[http_service]
+# Use [[services]] syntax (Recommended)
+[[services]]
+  protocol = "tcp"
   internal_port = 3000 # Must match PORT env var
-  force_https = true
-  auto_stop_machines = true
-  auto_start_machines = true
-  min_machines_running = 0
   processes = ["app"]
+
+  [[services.ports]]
+    port = 80
+    handlers = ["http"]
+    force_https = true
+
+  [[services.ports]]
+    port = 443
+    handlers = ["tls", "http"]
+
+  # Optional but recommended health check
+  [[services.tcp_checks]]
+    interval = "15s"
+    timeout = "2s"
+    port = "3000" # Check the internal port Flowise listens on
