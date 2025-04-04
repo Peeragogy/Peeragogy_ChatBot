@@ -1,6 +1,9 @@
 app = "peeragogybot"
 primary_region = "fra"
 
+[processes]
+app = "flowise start --port 3000 --host 0.0.0.0"
+
 [env]
 PORT = "3000"
 HOST = "0.0.0.0"
