@@ -1,10 +1,15 @@
+# fly.toml
 app = "peeragogybot"
 primary_region = "fra"
 
+[build]
+
 [env]
-PORT = "3000"
-HOST = "0.0.0.0"
-FLOWISE_HOST = "0.0.0.0"
+  PORT = "3000"
+  # HOST and FLOWISE_HOST are likely not needed if Flowise defaults correctly,
+  # but keeping them doesn't hurt.
+  HOST = "0.0.0.0"
+  FLOWISE_HOST = "0.0.0.0"
 
 [[services]]
   protocol = "tcp"
@@ -24,4 +29,4 @@ FLOWISE_HOST = "0.0.0.0"
     interval = "15s"
     timeout = "2s"
     port = "3000"
-    grace_period = "15s"
+    grace_period = "15s" # <-- ADD THIS LINE (adjust value if needed)
