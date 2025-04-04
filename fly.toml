@@ -1,19 +1,14 @@
-# fly.toml
-app = "peeragogybot" # Changed from peeragogychatbot based on logs? Verify app name.
-primary_region = "maa"
-
-# Ensure this section is EMPTY or REMOVED if using Dockerfile
-[build]
+app = "peeragogybot"
+primary_region = "fra"
 
 [env]
-  PORT = "3000"
-  HOST = "0.0.0.0"        # Standard variable (seems ignored by Flowise)
-  FLOWISE_HOST = "0.0.0.0" # Flowise-specific variable (let's try this)
+PORT = "3000"
+HOST = "0.0.0.0"
+FLOWISE_HOST = "0.0.0.0"
 
-# Use [[services]] syntax (Recommended)
 [[services]]
   protocol = "tcp"
-  internal_port = 3000 # Must match PORT env var
+  internal_port = 3000
   processes = ["app"]
 
   [[services.ports]]
@@ -25,8 +20,8 @@ primary_region = "maa"
     port = 443
     handlers = ["tls", "http"]
 
-  # Optional but recommended health check
   [[services.tcp_checks]]
     interval = "15s"
     timeout = "2s"
-    port = "3000" # Check the internal port Flowise listens on
+    port = "3000"
+    grace_period = "15s"
