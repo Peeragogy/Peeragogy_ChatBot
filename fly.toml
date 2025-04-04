@@ -3,6 +3,7 @@ primary_region = "fra"
 
 [env]
 PORT = "3000"
+FLOWISE_PORT = "3000"
 
 [[services]]
   internal_port = 3000
