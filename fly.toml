@@ -2,8 +2,8 @@ app = "peeragogybot"
 primary_region = "fra"
 
 [env]
-PORT = "0.0.0.0:3000"
-FLOWISE_PORT = "3000"
+PORT = "3000"
+HOST = "0.0.0.0"
 
 [[services]]
   internal_port = 3000
