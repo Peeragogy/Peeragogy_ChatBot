@@ -1,4 +1,10 @@
 
+![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
+![Pyragogy Verified](https://img.shields.io/badge/Pyragogy-Verified-%23ff69b4?style=flat-square&logo=star)
+[![Flowise](https://img.shields.io/badge/Built%20with-Flowise-blue?style=flat-square&logo=openai)](https://flowiseai.com)
+![OpenAI](https://img.shields.io/badge/Powered%20by-OpenAI-ffcc00?style=flat-square&logo=openai)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
+![Docs License: CC BY-SA 4.0](https://img.shields.io/badge/Docs--License-CC%20BY--SA%204.0-lightgrey?style=flat-square&logo=creativecommons)
 
 
 # 🤖 PeeragogyBot – AI Peer Tutor
@@ -7,14 +13,7 @@
 
 > *An AI-enhanced chatbot trained on the entire Peeragogy Handbook, built with Flowise, NeonDB, and infused with the spirit of Pyragogy.* 
 
-![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
-![Pyragogy Verified](https://img.shields.io/badge/Pyragogy-Verified-%23ff69b4?style=flat-square&logo=star)
-[![Flowise](https://img.shields.io/badge/Built%20with-Flowise-blue?style=flat-square&logo=openai)](https://flowiseai.com)
-![OpenAI](https://img.shields.io/badge/Powered%20by-OpenAI-ffcc00?style=flat-square&logo=openai)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)
-![Docs License: CC BY-SA 4.0](https://img.shields.io/badge/Docs--License-CC%20BY--SA%204.0-lightgrey?style=flat-square&logo=creativecommons)
-
-## 🌍 A Dedication to the Peeragogy.org Community
+## A Dedication to the Peeragogy.org Community
 
 This initial release of PeeragogyBot is dedicated to the curious, creative, and resilient community at [Peeragogy.org](https://peeragogy.org).
 
