@@ -60,7 +60,7 @@ Engage with PyragogyBot directly:
 
 - 🌐 **Basic Flowise version:** [Access Here](https://peeragogybot-flowise-production-68ec.up.railway.app/chatbot/d5f669ab-e063-4302-bea8-8ea55335603b)
 - 🧪 **Custom Full-Page version:** [Access Here](https://ftg-003.github.io/Peeragogy_ChatBot/)
-- 💬 **Pop-up version:** *(Coming soon)*
+- 💬 **Pop-up version:** [Access Here](https://ftg-003.github.io/Peeragogy.io-4/)
 
 ---
 
