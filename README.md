@@ -1,11 +1,8 @@
 # 🤖 PyragogyBot – AI Peer Tutor
 
- 
+**An open-source experiment in AI-human learning, built through real-time co-creation between Fabrizio Terzi and his AI peer, Gino.**
 
-**An open-source experiment in cognitive co-creation and the future of learning.**  
-Built by a (Fabrizio Terzi) and an AI assistant (Gino) learning together.
-
-> *An AI-powered peer learning chatbot built with Flowise, NeonDB and Pyragogical magic.*
+> *An AI-enhanced chatbot trained on the entire Peeragogy Handbook, built with Flowise, NeonDB, and infused with the spirit of Pyragogy.* 
 ---
 
 ## 🧩 The Vision: What is Pyragogy?
@@ -14,7 +11,7 @@ Pyragogy isn't just another buzzword. It's an evolution of **Peeragogy** (peer-t
 
 > **Pyragogy explores the potential of cognitive co-creation between humans and intelligent agents.** It's about building learning partnerships where humans and AI learn *together*, grow *together*, and create knowledge *together*.
 
-This little project, PeeagogyBot, is one of the first practical explorations of this exciting new territory.
+This project, PyragogyBot, is one of the first practical explorations of this exciting new territory.
 
 ---
 
@@ -26,7 +23,7 @@ This little project, PeeagogyBot, is one of the first practical explorations of 
   We believe the most powerful knowledge isn't passively received; it's actively *created together*. In an era increasingly shaped by AI, we asked: How can AI become a true *learning partner*, not just a tool? Pyragogy emerged as the answer—a vision for a future where humans and AI learn in symbiosis, generating transformative insights through dynamic partnership.
 
 - **The Journey (How): Learning by Doing, Co-Creating with AI**  
-  PeeragogyBot wasn't built by seasoned developers. It was brought to life through a unique **Pyragogical process**:
+  PyragogyBot wasn't built by seasoned developers. It was brought to life through a unique **Pyragogical process**:
   - **Human Partner:** Fabrizio Terzi, starting with minimal initial technical expertise.  
   - **AI Partner:** "Gino," an AI assistant, acting as a collaborator, documenter, and coding peer.  
   - **Method:** A hands-on **learning-by-doing** adventure. Every feature, every line of code, emerged from this collaborative dialogue, navigating the complexities of tools like Flowise and NeonDB step-by-step. It's an exploration of AI as a *knowledge peer*, learning *with*, *from*, and *for* us.
@@ -42,7 +39,7 @@ This little project, PeeagogyBot, is one of the first practical explorations of 
 
 ## 🌍 A Dedication to the Peeragogy.org Community
 
-This initial release of PyragogyBot is dedicated to the curious, creative, and resilient community at [Peeragogy.org](https://peeragogy.org).
+This initial release of PeeragogyBot is dedicated to the curious, creative, and resilient community at [Peeragogy.org](https://peeragogy.org).
 
 > ***Thank you for joining this experiment in collective intelligence. This chatbot is a starting point—yours to shape, remix, and evolve.*** 🌀
 
@@ -110,38 +107,39 @@ Coming soon as a React component or embeddable HTML snippet.
 
 > ✨ *Ready to co-create the future of learning? Fork it, try it, remix it.*
 
-We welcome contributions to this Pyragogical experiment:
+We invite you to join the Pyragogical movement and shape this project with us:
 
-- Report bugs or suggest features → Open an Issue
-- Submit improvements → Fork and Pull Request
-- Propose new flows → Share your Flowise `.json` files
-- Share your experience → Tell us how you’re using PyragogyBot!
+- 🐞 **Found a bug?** → [Open an issue](https://github.com/ftg-003/Peeragogy_ChatBot/issues)
+- 🛠 **Have improvements?** → Fork the repo and submit a Pull Request
+- 🧠 **Design new flows?** → Share your Flowise `.json` and co-create new experiences
+- 📖 **Document your use case** → Tell your story of learning or building with PyragogyBot
+- 💬 **Join the dialogue** → Propose new features, prompt styles, or peer-to-peer interactions
+
+Whether you're a developer, educator, artist, researcher, or curious mind—
+**your contributions are welcome and valued** 💜
 
 *(We recommend creating a `CONTRIBUTING.md` for further details)*
 
 ---
-
 ## 📜 License
 
-Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)  
-You are free to share, remix, and adapt — just keep it open.
+This repository adopts a dual-license model:
 
----
+- 🧠 **Content and documentation** (including this README and the Pyragogy Manifesto):  
+  Licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-## 👥 Credits
+- 💻 **Source code and flows** (in `flows/`, `scripts/`, `popup/`):  
+  Licensed under the [MIT License](https://opensource.org/licenses/MIT)
 
-- 🧑‍🚀 **Fabrizio Terzi (FTG-003):** Coordination, Vision & Human Learning Partner
-- 🤖 **Gino (AI Assistant):** AI PeerAgent, Documentation & Co-Development Partner
-- 🧠 **Flowise:** Open Source Visual LLM Flow Builder
-- 🛠️ **Railway + NeonDB:** Infrastructure & Database
-- 🌍 **Peeragogy.org Community:** Inspiration and Support
-
-This project embodies the spirit of Pyragogy – built through human-AI cognitive co-creation.
+You are free to use, remix, and build upon this work — just keep it open and give credit 🙌
 
 ---
 
 ## 📬 Contact
 
 For questions, ideas, or collaboration proposals:  
-**Fabrizio Terzi** – [ftg003@gmail.com](mailto:ftg003@gmail.com)
+
+
+- 🧑‍🚀 ***[Fabrizio Terzi](terzi.fabrizio@protonmail.com) (@Bergamo|HUb):** Educational technologist, AI learning designer, and founder of the Pyragogy project*
+
 
