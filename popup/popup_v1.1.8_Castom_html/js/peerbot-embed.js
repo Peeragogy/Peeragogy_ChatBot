@@ -91,13 +91,12 @@ Chatbot.init({
                 showDate: true,
                 showTime: true
             },
-            footer: {
-                showFooter: true,
-                textColor: '#718096',
-                text: 'Powered by',
-                company: 'Peeragogy + Flowise',
-                companyLink: 'https://peeragogy.org'
-            }
+             footer: {
+                textColor: "#a0a0a0",
+                text: "π Nexus – v1.1.8",
+                company: "Co-created by Fabrizio Terzi + OpenAI",
+                companyLink: "https://github.com/FTG-003"
+                                }
         },
         customCSS: `
       /* Example: Customize button size if needed */
