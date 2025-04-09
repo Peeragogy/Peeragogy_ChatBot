@@ -1,124 +1,116 @@
-Simply Paste this anywhere in the <body> tag of your html file.
+## 🧩 How to Embed the Flowise Chatbot (Popup)
 
+Simply paste this anywhere in the `<body>` tag of your HTML file:
+   
+   
+<flowise-fullchatbot></flowise-fullchatbot>
+<script type="module" src="./js/peerbot-embed.js"></script>
 
-<script type="module">
-    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
-    Chatbot.init({
-        chatflowid: "d5f669ab-e063-4302-bea8-8ea55335603b",
-        apiHost: "https://peeragogybot-flowise-production-68ec.up.railway.app",
-    })
-</script>
+# 🧠 PeeragogyBot – Popup Integration Guide
 
+This guide explains how to embed the **PeeragogyBot** chatbot into any HTML page using a minimal, modular approach. The bot appears as a floating button (popup), powered by a pre-configured JavaScript file.
 
+---
 
+## ✅ What You Need
 
+- A working chatbot flow published via Flowise (you’ll need the `chatflowid` and `apiHost`)
+- A JavaScript configuration file (e.g., `peerbot-embed.js`) with all styling and behavior
+- A basic HTML page where you want to embed the bot
 
-**Embed Chat Config:**  
+---
 
-<script type="module">
-    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
-    Chatbot.init({
-        chatflowid: "d5f669ab-e063-4302-bea8-8ea55335603b",
-        apiHost: "https://peeragogybot-flowise-production-68ec.up.railway.app",
-        chatflowConfig: {
-            /* Chatflow Config */
-        },
-        observersConfig: {
-            /* Observers Config */
-        },
-        theme: {
-            button: {
-                backgroundColor: '#3B81F6',
-                right: 20,
-                bottom: 20,
-                size: 48,
-                dragAndDrop: true,
-                iconColor: 'white',
-                customIconSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
-                autoWindowOpen: {
-                    autoOpen: true,
-                    openDelay: 2,
-                    autoOpenOnMobile: false
-                }
-            },
-            tooltip: {
-                showTooltip: true,
-                tooltipMessage: 'Hi There 👋!',
-                tooltipBackgroundColor: 'black',
-                tooltipTextColor: 'white',
-                tooltipFontSize: 16
-            },
-            disclaimer: {
-                title: 'Disclaimer',
-                message: "By using this chatbot, you agree to the <a target=\"_blank\" href=\"https://flowiseai.com/terms\">Terms & Condition</a>",
-                textColor: 'black',
-                buttonColor: '#3b82f6',
-                buttonText: 'Start Chatting',
-                buttonTextColor: 'white',
-                blurredBackgroundColor: 'rgba(0, 0, 0, 0.4)',
-                backgroundColor: 'white'
-            },
-            customCSS: ``,
-            chatWindow: {
-                showTitle: true,
-                showAgentMessages: true,
-                title: 'Flowise Bot',
-                titleAvatarSrc: 'https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg',
-                welcomeMessage: 'Hello! This is custom welcome message',
-                errorMessage: 'This is a custom error message',
-                backgroundColor: '#ffffff',
-                backgroundImage: 'enter image path or link',
-                height: 700,
-                width: 400,
-                fontSize: 16,
-                starterPrompts: [
-                    "What is a bot?",
-                    "Who are you?"
-                ],
-                starterPromptFontSize: 15,
-                clearChatOnReload: false,
-                sourceDocsTitle: 'Sources:',
-                renderHTML: true,
-                botMessage: {
-                    backgroundColor: '#f7f8ff',
-                    textColor: '#303235',
-                    showAvatar: true,
-                    avatarSrc: 'https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/parroticon.png'
-                },
-                userMessage: {
-                    backgroundColor: '#3B81F6',
-                    textColor: '#ffffff',
-                    showAvatar: true,
-                    avatarSrc: 'https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png'
-                },
-                textInput: {
-                    placeholder: 'Type your question',
-                    backgroundColor: '#ffffff',
-                    textColor: '#303235',
-                    sendButtonColor: '#3B81F6',
-                    maxChars: 50,
-                    maxCharsWarningMessage: 'You exceeded the characters limit. Please input less than 50 characters.',
-                    autoFocus: true,
-                    sendMessageSound: true,
-                    sendSoundLocation: 'send_message.mp3',
-                    receiveMessageSound: true,
-                    receiveSoundLocation: 'receive_message.mp3'
-                },
-                feedback: {
-                    color: '#303235'
-                },
-                dateTimeToggle: {
-                    date: true,
-                    time: true
-                },
-                footer: {
-                    textColor: '#303235',
-                    text: 'Powered by',
-                    company: 'Flowise',
-                    companyLink: 'https://flowiseai.com'
-                }
-            }
-        }
-    })
-</script>
+##  Folder Structure
 
+```
+your-project/
+├── index.html
+└── js/
+    └── peerbot-embed.js
+```
+
+---
+
+## 🧱 Step-by-Step Integration
+
+### 1. Place the HTML Embed Snippet
+
+Insert the following two lines **anywhere in the `<body>`** section of your HTML file:
+
+```html
+<flowise-fullchatbot></flowise-fullchatbot>
+<script type="module" src="./js/peerbot-embed.js"></script>
+```
+
+> 💡 Even though you're using `Chatbot.init()` (popup mode), the `<flowise-fullchatbot>` element helps initialize the container properly — no visible chat will appear unless triggered.
+
+---
+
+### 2. Use the Provided `peerbot-embed.js`
+
+Inside `js/peerbot-embed.js`, you can configure:
+
+- Bot icon, theme colors, drag position
+- Auto-open delay and tooltip
+- Disclaimer modal with custom message
+- Full chat window: avatars, welcome message, footer, input box, sounds, etc.
+
+Example snippet inside the file:
+
+```js
+import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js";
+
+Chatbot.init({
+  chatflowid: "your-chatflow-id",
+  apiHost: "https://your-flowise-deploy.app",
+  theme: {
+    button: {
+      backgroundColor: '#2B6CB0',
+      autoWindowOpen: {
+        autoOpen: true,
+        openDelay: 1000
+      }
+    },
+    chatWindow: {
+      welcomeMessage: "👋 Welcome to PeeragogyBot!",
+      // ...
+    }
+  }
+});
+```
+
+---
+
+## 🚀 How to Run Locally
+
+> ⚠️ Do **not** open the HTML file directly with `file://` — it won’t work!
+
+Use a local web server like:
+
+```bash
+npx serve .
+# or
+python3 -m http.server
+```
+
+Then open your browser at [http://localhost:5000](http://localhost:5000)
+
+---
+
+## 🛠️ Customization Tips
+
+- You can edit the `peerbot-embed.js` to change styling, behavior, sounds, icons, or text.
+- To force re-showing the disclaimer during testing, use **Incognito Mode** or clear your browser `localStorage`.
+
+---
+
+## 🧪 Advanced Usage
+
+- Works on any HTML-based site (including CMS like WordPress if you inject raw HTML)
+- You can move the script into `<head>` if you wrap it in `window.onload` or use `defer`
+- Compatible with GitHub Pages, Netlify, and static site hosting
+
+---
+
+> 💬 Built for the [Pyragogy Project](https://github.com/FTG-003/Peeragogy_ChatBot)  
+> 🔄 Co-created by humans & AI peers. Let’s build learning ecosystems together.
