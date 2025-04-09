@@ -5,6 +5,14 @@
 > *An AI-enhanced chatbot trained on the entire Peeragogy Handbook, built with Flowise, NeonDB, and infused with the spirit of Pyragogy.* 
 ---
 
+## 🌍 A Dedication to the Peeragogy.org Community
+
+This initial release of PeeragogyBot is dedicated to the curious, creative, and resilient community at [Peeragogy.org](https://peeragogy.org).
+
+> ***Thank you for joining this experiment in collective intelligence. This chatbot is a starting point—yours to shape, remix, and evolve.*** 🌀
+
+---
+
 ## 🧩 The Vision: What is Pyragogy?
 
 Pyragogy isn't just another buzzword. It's an evolution of **Peeragogy** (peer-to-peer learning) reimagined for the age of Artificial Intelligence.
@@ -37,13 +45,6 @@ This project, PyragogyBot, is one of the first practical explorations of this ex
 
 ---
 
-## 🌍 A Dedication to the Peeragogy.org Community
-
-This initial release of PeeragogyBot is dedicated to the curious, creative, and resilient community at [Peeragogy.org](https://peeragogy.org).
-
-> ***Thank you for joining this experiment in collective intelligence. This chatbot is a starting point—yours to shape, remix, and evolve.*** 🌀
-
----
 
 ## 🚀 Try the Prototype Now
 
