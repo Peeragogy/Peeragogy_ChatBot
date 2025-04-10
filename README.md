@@ -8,7 +8,6 @@
 
 
 # 🤖 PeeragogyBot – AI Peer Tutor
- [☕ Support the project on Buy Me a Coffee](https://buymeacoffee.com/bergamohub)
 
 **An open-source experiment in AI-human learning, built through real-time co-creation between Fabrizio Terzi and his AI peer, Gino.**
 
@@ -145,11 +144,16 @@ You are free to use, remix, and build upon this work — just keep it open and g
 
 ---
 
-## 📬 Contact
+## 📬 Contact & Support the project 
 
 For questions, ideas, or collaboration proposals:  
 
 
 - 🧑‍🚀 ***[Fabrizio Terzi](terzi.fabrizio@protonmail.com) (@Bergamo|HUb):** Educational technologist, AI learning designer, and founder of the Pyragogy project*
+
+## ☕ Support
+
+If you find this project useful or inspiring, consider [buying me a coffee](https://buymeacoffee.com/bergamohub) to keep the learning loop alive!
+
 
 
