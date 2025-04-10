@@ -148,7 +148,6 @@ You are free to use, remix, and build upon this work — just keep it open and g
 
 For questions, ideas, or collaboration proposals:  
 
-
 - 🧑‍🚀 ***[Fabrizio Terzi](terzi.fabrizio@protonmail.com) (@Bergamo|HUb):** Educational technologist, AI learning designer, and founder of the Pyragogy project*
 
 ## ☕ Support

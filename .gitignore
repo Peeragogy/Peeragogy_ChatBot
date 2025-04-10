@@ -24,6 +24,8 @@ flowise.json
 *.env
 .env.*
 config.local.json
+flowise.json
+
 
 # Build/Deploy (opzionale)
 dist/
