@@ -11,7 +11,8 @@
 
 **An open-source experiment in AI-human learning, built through real-time co-creation between Fabrizio Terzi and his AI peer, Gino.**
 
-> *An AI-enhanced chatbot trained on the entire Peeragogy Handbook, built with Flowise, NeonDB, and infused with the spirit of Pyragogy.* 
+> *An AI-enhanced chatbot trained on the entire Peeragogy Handbook, built with Flowise, NeonDB, and infused with the spirit of Pyragogy.*
+ [☕ Support the project on Buy Me a Coffee](https://buymeacoffee.com/bergamohub)
 
 ## A Dedication to the Peeragogy.org Community
 
