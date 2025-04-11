@@ -37,3 +37,7 @@ Today, the development and integration of **Pyria**, a reflective AI, with **Pee
 ## **9. Conclusions**
 We have successfully created a **collaborative AI ecosystem** with **Pyria** and **PeeragogyBot**, where the two AIs collaborate to facilitate a shared and reflective learning experience. Privacy consent management has been correctly implemented, and the communication flow between the AIs has been tested and optimized.
 
+## **10. Flow**
+![Peeragogy_ChatBot_V1.2.0%20-Pyria](https://github.com/FTG-003/Peeragogy_ChatBot/blob/main/doc/assets/images/nodes_flowise/Peeragogy_ChatBot_V1.2.0%20-Pyria.png)
+
+
