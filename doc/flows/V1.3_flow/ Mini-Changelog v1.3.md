@@ -13,8 +13,6 @@
 - Descriptions refined to improve tool matching logic
 
 
-# PeeragogyBot – Version {date.today().isoformat()} (v1.3 Final)
-
 ## 🚀 Overview
 This release represents the first complete cognitive loop between **PeeragogyBot** (based on Flowise) and **Pyria-API** (real Assistant on OpenAI Platform). All components have been optimized, cleaned and verified in Super Coding Assistant mode.
 
