@@ -9,7 +9,8 @@
 
 # 🤖 PeeragogyBot – AI Peer Tutor
 
-**An open-source experiment in AI-human learning, built through real-time co-creation between Fabrizio Terzi and his AI peer, Gino.**
+**An open-source experiment in AI-human learning, built through real-time co-creation between Fabrizio Terzi and his AI peer, Gino.** **Latest Version V1.1.9:** [Peeragogy ChatBot](https://ftg-003.github.io/Peeragogy_ChatBot/)
+
 
 > *An AI-enhanced chatbot trained on the entire Peeragogy Handbook, built with Flowise, NeonDB, and infused with the spirit of Pyragogy.*
 
@@ -56,7 +57,7 @@ This project, PyragogyBot, is one of the first practical explorations of this ex
 
 ## 🚀 Try the Prototype Now
 
-Engage with PyragogyBot directly:
+Engage with PyragogyBot directly: 
 
 - 🌐 **Basic Flowise version:** [Access Here](https://peeragogybot-flowise-production-68ec.up.railway.app/chatbot/d5f669ab-e063-4302-bea8-8ea55335603b)
 - 🧪 **Custom Full-Page version:** [Access Here](https://ftg-003.github.io/Peeragogy_ChatBot/)
